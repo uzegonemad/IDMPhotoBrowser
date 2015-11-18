@@ -13,8 +13,9 @@
 #import "pop/POP.h"
 
 #ifndef IDMPhotoBrowserLocalizedStrings
-#define IDMPhotoBrowserLocalizedStrings(key) \
-NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"IDMPBLocalizations" ofType:@"bundle"]], nil)
+#define IDMPhotoBrowserLocalizedStrings(key) key
+//#define IDMPhotoBrowserLocalizedStrings(key) \
+//NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"IDMPBLocalizations" ofType:@"bundle"]], nil)
 #endif
 
 // Private
